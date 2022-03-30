@@ -1,0 +1,43 @@
+<div class="level-right has-text-danger">
+    <i class="fa fa-times-circle fa-3x" (click)="closeModal()"></i>
+</div>
+<h1>Modifier le Pétitionnaire</h1>
+test de texte {{ dataOfOnePet.name }}
+<div class="field">
+    <label class="label">Name</label>
+    <p class="control">
+        <input class="input" type="text" placeholder="Text input">
+    </p>
+</div>
+
+<div class="field">
+    <label class="label">Username</label>
+    <p class="control has-icon has-icon-right">
+        <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+        <span class="icon is-small">
+      <i class="fa fa-check"></i>
+    </span>
+    </p>
+    <p class="help is-success">This username is available</p>
+</div>
+
+<div class="field">
+    <label class="label">Email</label>
+    <p class="control has-icon has-icon-right">
+        <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
+        <span class="icon is-small">
+      <i class="fa fa-warning"></i>
+    </span>
+    </p>
+    <p class="help is-danger">This email is invalid</p>
+</div>
+
+
+<div class="field is-grouped">
+    <p class="control">
+        <button class="button is-primary">Submit</button>
+    </p>
+    <p class="control">
+        <button class="button is-link">Cancel</button>
+    </p>
+</div>

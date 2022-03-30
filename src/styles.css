@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./assets/bulma/css/bulma.css";
+@import "./assets/fontawesome-free-5.15.4-web/css/all.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
